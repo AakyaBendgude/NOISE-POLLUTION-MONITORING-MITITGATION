@@ -1,0 +1,191 @@
+ /* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p, ul, li {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://example.com/noise-pollution-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero .content {
+    text-align: center;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .cta {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta:hover {
+    background-color: #c0392b;
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 0;
+}
+
+.section.light-bg {
+    background-color: #fff;
+}
+
+.section.dark-bg {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Intro Section */
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Content Grid */
+.content-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.content-item {
+    flex-basis: 30%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Technology Cards */
+.technology-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.tech-card {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tech-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Steps Section */
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.step {
+    background-color: #bdc3c7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Mitigation Cards */
+.mitigation-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.mitigation-card {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.mitigation-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mitigation-card ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color:#000000;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pp{
+    color: white;
+}
+
+.vv{
+    color: black;
+}
+.zz{
+    color:white;
+}
+.kk{
+    color: antiquewhite;
+}
